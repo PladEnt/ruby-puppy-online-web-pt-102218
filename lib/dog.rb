@@ -12,7 +12,7 @@ class Dog
   end
   
   def Dog.all
-    
+    puts @@all.map{ |dog| dog.name }
   end
   
 end
